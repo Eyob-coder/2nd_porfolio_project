@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import * as THREE from "three";
-import Designer from "./pages/Designer";
-import Developer from "./pages/Developer";
+// import Designer from "./pages/Designer";
+// import Developer from "./pages/Developer";
+import CanvasContainer from "./components/CanvasContainer";
+import Divider from "./components/Divider"
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import "./HomePage.css";
 
@@ -85,23 +87,14 @@ const HomePage = () => {
 
   return (
     <div className="home-container">
-      <div id="canvas-container"></div>
-      <div className="divider" onMouseLeave={onDividerLeave}>
-        <div
-          className={`divider-text ${isDesignerHovered ? "designer-hovered" : ""}`}
-          onMouseEnter={onDesignerHover}
-        >
-          Designer
-        </div>
-        <div
-          className={`divider-text ${
-            isDeveloperHovered ? "developer-hovered" : ""
-          }`}
-          onMouseEnter={onDeveloperHover}
-        >
-          Developer
-        </div>
-      </div>
+	  <CanvasContainer />
+      <Divider
+        onDividerLeave={onDividerLeave}
+        onDesignerHover={onDesignerHover}
+        onDeveloperHover={onDeveloperHover}
+        isDesignerHovered={isDesignerHovered}
+        isDeveloperHovered={isDeveloperHovered}
+      />
     </div>
   );
 };
