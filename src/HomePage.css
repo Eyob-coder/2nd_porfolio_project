@@ -11,10 +11,6 @@
 }
 
 .home-container {
-	height: 100vh;
-}
-
-
-.home-container {
-	position: relative;
+	height: 50vh;
+	position: absolute;
 }
