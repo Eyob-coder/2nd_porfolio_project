@@ -65,3 +65,14 @@
 	width: 130%;
 	transition: all 0.3s ease-in-out;
 }
+
+.divider-container {
+	position: absolute;
+	display: flex;
+	z-index: 1;
+}
+
+
+.divider-container h2 {
+	color: #00f;
+}

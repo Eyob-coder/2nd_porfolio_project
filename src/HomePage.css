@@ -12,5 +12,16 @@
 
 .home-container {
 	height: 50vh;
+	position: relative;
+}
+
+.divider-container {
 	position: absolute;
+	display: flex;
+	z-index: 1;
+}
+
+
+.divider-container h2 {
+	color: #00f;
 }
