@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eyob_portfolio2/static/css/main.4c6b257d.css",
-    "main.js": "/Eyob_portfolio2/static/js/main.c1b9476e.js",
+    "main.css": "/Eyob_portfolio2/static/css/main.afa5cfcf.css",
+    "main.js": "/Eyob_portfolio2/static/js/main.21bbc8ec.js",
     "static/js/787.dd5e2630.chunk.js": "/Eyob_portfolio2/static/js/787.dd5e2630.chunk.js",
     "index.html": "/Eyob_portfolio2/index.html",
-    "main.4c6b257d.css.map": "/Eyob_portfolio2/static/css/main.4c6b257d.css.map",
-    "main.c1b9476e.js.map": "/Eyob_portfolio2/static/js/main.c1b9476e.js.map",
+    "main.afa5cfcf.css.map": "/Eyob_portfolio2/static/css/main.afa5cfcf.css.map",
+    "main.21bbc8ec.js.map": "/Eyob_portfolio2/static/js/main.21bbc8ec.js.map",
     "787.dd5e2630.chunk.js.map": "/Eyob_portfolio2/static/js/787.dd5e2630.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c6b257d.css",
-    "static/js/main.c1b9476e.js"
+    "static/css/main.afa5cfcf.css",
+    "static/js/main.21bbc8ec.js"
   ]
 }
