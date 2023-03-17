@@ -79,9 +79,9 @@
 }
 
 .canvas-container {
-	position: relative;
+	position: absolute;
 }
 
-.divider-text {
-	position: absolute;
+.divider {
+	position: relative;
 }
