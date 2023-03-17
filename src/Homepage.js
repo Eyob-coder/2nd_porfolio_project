@@ -72,7 +72,7 @@ scene.add(pointLight);
   
   // Resize canvas to fit 100vh
   const canvas = renderer.domElement;
-  canvas.style.height = "70vh";
+  canvas.style.height = "90vh";
   canvas.style.width = "100vw";
   renderer.setSize(canvas.clientWidth, canvas.clientHeight);
 
